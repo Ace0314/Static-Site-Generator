@@ -5,3 +5,4 @@ TextNode Test lesson done.
 HTMLNode lesson done.
 LeafNode lesson done.
 ParentNode lesson done.
+TextNode to LeafNode lesson done.
