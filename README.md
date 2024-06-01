@@ -14,3 +14,4 @@ Split blocks lesson done.
 Block types lesson done.
 Block to HTML lesson done.
 Copy Static lesson done.
+Generate page lesson done.

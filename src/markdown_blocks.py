@@ -39,7 +39,7 @@ def block_to_html_node(block):
         return code_to_html_node(block)
     if block_type == block_type_olist:
         return olist_to_html_node(block)
-    if block_type == blcok_type_ulist:
+    if block_type == block_type_ulist:
         return ulist_to_html_node(block)
     if block_type == block_type_quote:
         return quote_to_html_node(block)
@@ -116,7 +116,7 @@ def heading_to_html_node(block):
 
 
 def code_to_html_node(block):
-    if not block.startswith("```") ot not block.endswith("```"):
+    if not block.startswith("```") or not block.endswith("```"):
         raise ValueError("Invalid code block")
     text = block[4:-3]
     children = text_to_children(text)
@@ -130,7 +130,7 @@ def olist_to_html_node(block):
     for item in items:
         text = item[3:]
         children = text_to_children(text)
-        html_items.append(Parentnode("li", children))
+        html_items.append(ParentNode("li", children))
     return ParentNode("ol", html_items)
 
 
