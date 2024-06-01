@@ -8,3 +8,4 @@ ParentNode lesson done.
 TextNode to LeafNode lesson done.
 Inline markdown lesson done.
 Extract Links lesson done.
+Split images and links lesson done.
