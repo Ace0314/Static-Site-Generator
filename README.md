@@ -12,3 +12,4 @@ Split images and links lesson done.
 Text to Textnode lesson done.
 Split blocks lesson done.
 Block types lesson done.
+Block to HTML lesson done.
